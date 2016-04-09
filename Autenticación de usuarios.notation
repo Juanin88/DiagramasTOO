@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_efrhYPnlEeW9lf47SnXJkg" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_fdrasPnlEeW9lf47SnXJkg" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fdrasvnlEeW9lf47SnXJkg" type="5026"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fdras_nlEeW9lf47SnXJkg" type="7016">
+      <children xmi:type="notation:Shape" xmi:id="_jj30APnlEeW9lf47SnXJkg" type="3010">
+        <children xmi:type="notation:DecorationNode" xmi:id="_jj30AvnlEeW9lf47SnXJkg" type="5014"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_jj30A_nlEeW9lf47SnXJkg" type="8518">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_jj30BPnlEeW9lf47SnXJkg" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_jj30BfnlEeW9lf47SnXJkg" type="7011">
+          <children xmi:type="notation:Shape" xmi:id="_z4wXwPnlEeW9lf47SnXJkg" type="3012">
+            <element xmi:type="uml:Property" href="Autenticación%20de%20usuarios.uml#_z4stYPnlEeW9lf47SnXJkg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_z4wXwfnlEeW9lf47SnXJkg"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="__rLc8PnlEeW9lf47SnXJkg" type="3012">
+            <element xmi:type="uml:Property" href="Autenticación%20de%20usuarios.uml#__rHykPnlEeW9lf47SnXJkg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="__rLc8fnlEeW9lf47SnXJkg"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_jj30BvnlEeW9lf47SnXJkg"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_jj30B_nlEeW9lf47SnXJkg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_jj30CPnlEeW9lf47SnXJkg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jj30CfnlEeW9lf47SnXJkg"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_jj30CvnlEeW9lf47SnXJkg" type="7012">
+          <children xmi:type="notation:Shape" xmi:id="_GZ2UYPnmEeW9lf47SnXJkg" type="3013">
+            <element xmi:type="uml:Operation" href="Autenticación%20de%20usuarios.uml#_GZyC8PnmEeW9lf47SnXJkg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GZ2UYfnmEeW9lf47SnXJkg"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_HycfAPnmEeW9lf47SnXJkg" type="3013">
+            <element xmi:type="uml:Operation" href="Autenticación%20de%20usuarios.uml#_HyYNkPnmEeW9lf47SnXJkg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HycfAfnmEeW9lf47SnXJkg"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_I90tAPnmEeW9lf47SnXJkg" type="3013">
+            <element xmi:type="uml:Operation" href="Autenticación%20de%20usuarios.uml#_I9xCoPnmEeW9lf47SnXJkg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_I90tAfnmEeW9lf47SnXJkg"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_jj30C_nlEeW9lf47SnXJkg"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_jj30DPnlEeW9lf47SnXJkg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_jj30DfnlEeW9lf47SnXJkg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jj30DvnlEeW9lf47SnXJkg"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_jj4bEPnlEeW9lf47SnXJkg" type="7013">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_jj4bEfnlEeW9lf47SnXJkg"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_jj4bEvnlEeW9lf47SnXJkg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_jj4bE_nlEeW9lf47SnXJkg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jj4bFPnlEeW9lf47SnXJkg"/>
+        </children>
+        <element xmi:type="uml:Class" href="Autenticación%20de%20usuarios.uml#_jj1-0PnlEeW9lf47SnXJkg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jj30AfnlEeW9lf47SnXJkg" x="43" y="77" width="387" height="222"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_fdratPnlEeW9lf47SnXJkg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fdratfnlEeW9lf47SnXJkg"/>
+    </children>
+    <element xmi:type="uml:Package" href="Autenticación%20de%20usuarios.uml#_fdqMkPnlEeW9lf47SnXJkg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fdrasfnlEeW9lf47SnXJkg" x="9" y="29" width="449" height="507"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_efrhYfnlEeW9lf47SnXJkg" name="diagram_compatibility_version" stringValue="1.1.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_efrhYvnlEeW9lf47SnXJkg"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_efrhY_nlEeW9lf47SnXJkg">
+    <owner xmi:type="uml:Model" href="Autenticación%20de%20usuarios.uml#_efqTQPnlEeW9lf47SnXJkg"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Autenticación%20de%20usuarios.uml#_efqTQPnlEeW9lf47SnXJkg"/>
+</notation:Diagram>

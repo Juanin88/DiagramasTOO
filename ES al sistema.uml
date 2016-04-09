@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2a0CEO-jEeWlvNbAhoU_Sw" name="RootElement">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_2yMnUO-jEeWlvNbAhoU_Sw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_9DrzgO-jEeWlvNbAhoU_Sw" name="Consumidor"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_5WFD4O-kEeWlvNbAhoU_Sw" name="Prestador"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_7DFYQO-kEeWlvNbAhoU_Sw" name="Itentificarse">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_H6K_cO-lEeWlvNbAhoU_Sw" name="Usuario Invalido"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QcoIsO-lEeWlvNbAhoU_Sw" name="Contraseña Invalida"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_RmessO-lEeWlvNbAhoU_Sw" name="Usuario Inactivo"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_aNuPUO-lEeWlvNbAhoU_Sw" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_mgFY0O-lEeWlvNbAhoU_Sw" addition="_WerxwO-lEeWlvNbAhoU_Sw"/>
+    <include xmi:type="uml:Include" xmi:id="_ujB7kO-lEeWlvNbAhoU_Sw" addition="_sfzfkO-lEeWlvNbAhoU_Sw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WerxwO-lEeWlvNbAhoU_Sw" name="Alta del Usuario"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hB7uEO-lEeWlvNbAhoU_Sw" memberEnd="_hC5XYO-lEeWlvNbAhoU_Sw _hC5XYe-lEeWlvNbAhoU_Sw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hB88MO-lEeWlvNbAhoU_Sw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hB9jQO-lEeWlvNbAhoU_Sw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hC5XYO-lEeWlvNbAhoU_Sw" name="itentificarse" type="_7DFYQO-kEeWlvNbAhoU_Sw" association="_hB7uEO-lEeWlvNbAhoU_Sw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hC5XYe-lEeWlvNbAhoU_Sw" name="consumidor" type="_9DrzgO-jEeWlvNbAhoU_Sw" association="_hB7uEO-lEeWlvNbAhoU_Sw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hexbEO-lEeWlvNbAhoU_Sw" memberEnd="_heyCIu-lEeWlvNbAhoU_Sw _heyCI--lEeWlvNbAhoU_Sw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_heyCIO-lEeWlvNbAhoU_Sw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_heyCIe-lEeWlvNbAhoU_Sw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_heyCIu-lEeWlvNbAhoU_Sw" name="itentificarse" type="_7DFYQO-kEeWlvNbAhoU_Sw" association="_hexbEO-lEeWlvNbAhoU_Sw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_heyCI--lEeWlvNbAhoU_Sw" name="prestador" type="_5WFD4O-kEeWlvNbAhoU_Sw" association="_hexbEO-lEeWlvNbAhoU_Sw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sfzfkO-lEeWlvNbAhoU_Sw" name="Usuario Activo"/>
+</uml:Model>

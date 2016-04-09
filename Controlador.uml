@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VzptwPnXEeW9lf47SnXJkg" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_XKdvsPnXEeW9lf47SnXJkg" name="Controlador">
+    <packagedElement xmi:type="uml:Package" xmi:id="_O3kP8PnYEeW9lf47SnXJkg" name="Autenticación de Usuarios"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RhuJEPnYEeW9lf47SnXJkg" name="Reservar"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Tkdc4PnYEeW9lf47SnXJkg" name="Inmuebles"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WvVdcPnYEeW9lf47SnXJkg" name="Index"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_BntF8PnkEeW9lf47SnXJkg" name="Administrador de Reservas"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nWtcAOiYEeWS8sFWnXjFtA" name="RootElement">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_nktbwOiYEeWS8sFWnXjFtA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_02FLMOiYEeWS8sFWnXjFtA" name="Diagrama General"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Fhn7cOiZEeWS8sFWnXjFtA" name="E/S al Sistema."/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GYR2oOiZEeWS8sFWnXjFtA" name="ABCC prestador y consumidor."/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UsrJUOiZEeWS8sFWnXjFtA" name="ABCC de la Propiedad."/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Vc-k4OiZEeWS8sFWnXjFtA" name="ABCC de la Disponibilidad."/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_V7fs4OiZEeWS8sFWnXjFtA" name="Reservar la Propiedad."/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WQP04OiZEeWS8sFWnXjFtA" name="Cancelar Reservación."/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WdxTgOiZEeWS8sFWnXjFtA" name="Aceptar o Rechazar Reservación."/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3jMcQOiZEeWS8sFWnXjFtA" name="Visitante"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_8W8fIOiZEeWS8sFWnXjFtA" name="Prestador"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WOqbUOirEeWknob_pYMvqg" name="Buscar Propiedades Disponibles."/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hOsS4OiuEeWknob_pYMvqg" name="Calificar al Consumidor o la Propiedad."/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_D09XQO7ZEeWPsvYD2-LIrQ" name="Consumidor"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_N89skO7aEeWPsvYD2-LIrQ" memberEnd="_N96u0O7aEeWPsvYD2-LIrQ _N96u0e7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N8-6sO7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N8-6se7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N96u0O7aEeWPsvYD2-LIrQ" name="buscar propiedades disponibles" type="_WOqbUOirEeWknob_pYMvqg" association="_N89skO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N96u0e7aEeWPsvYD2-LIrQ" name="visitante" type="_3jMcQOiZEeWS8sFWnXjFtA" association="_N89skO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UKb7cO7aEeWPsvYD2-LIrQ" memberEnd="_UKcigu7aEeWPsvYD2-LIrQ _UKcig-7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UKcigO7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UKcige7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UKcigu7aEeWPsvYD2-LIrQ" name="abcc prestador y consumidor" type="_GYR2oOiZEeWS8sFWnXjFtA" association="_UKb7cO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UKcig-7aEeWPsvYD2-LIrQ" name="visitante" type="_3jMcQOiZEeWS8sFWnXjFtA" association="_UKb7cO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VjqYMO7aEeWPsvYD2-LIrQ" memberEnd="_VjqYM-7aEeWPsvYD2-LIrQ _VjqYNO7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VjqYMe7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VjqYMu7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VjqYM-7aEeWPsvYD2-LIrQ" name="abcc prestador y consumidor" type="_GYR2oOiZEeWS8sFWnXjFtA" association="_VjqYMO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VjqYNO7aEeWPsvYD2-LIrQ" name="prestador" type="_8W8fIOiZEeWS8sFWnXjFtA" association="_VjqYMO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WMJ7kO7aEeWPsvYD2-LIrQ" memberEnd="_WMKiou7aEeWPsvYD2-LIrQ _WMKio-7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WMKioO7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WMKioe7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WMKiou7aEeWPsvYD2-LIrQ" name="abcc prestador y consumidor" type="_GYR2oOiZEeWS8sFWnXjFtA" association="_WMJ7kO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WMKio-7aEeWPsvYD2-LIrQ" name="consumidor" type="_D09XQO7ZEeWPsvYD2-LIrQ" association="_WMJ7kO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Wxy_QO7aEeWPsvYD2-LIrQ" memberEnd="_WxzmUO7aEeWPsvYD2-LIrQ _WxzmUe7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Wxy_Qe7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wxy_Qu7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WxzmUO7aEeWPsvYD2-LIrQ" name="buscar propiedades disponibles" type="_WOqbUOirEeWknob_pYMvqg" association="_Wxy_QO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WxzmUe7aEeWPsvYD2-LIrQ" name="consumidor" type="_D09XQO7ZEeWPsvYD2-LIrQ" association="_Wxy_QO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_baGAEO7aEeWPsvYD2-LIrQ" memberEnd="_baGnIO7aEeWPsvYD2-LIrQ _baGnIe7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_baGAEe7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_baGAEu7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_baGnIO7aEeWPsvYD2-LIrQ" name="abcc de la disponibilidad" type="_Vc-k4OiZEeWS8sFWnXjFtA" association="_baGAEO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_baGnIe7aEeWPsvYD2-LIrQ" name="prestador" type="_8W8fIOiZEeWS8sFWnXjFtA" association="_baGAEO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dNX7kO7aEeWPsvYD2-LIrQ" memberEnd="_dNYioO7aEeWPsvYD2-LIrQ _dNYioe7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dNX7ke7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dNX7ku7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dNYioO7aEeWPsvYD2-LIrQ" name="abcc de la propiedad" type="_UsrJUOiZEeWS8sFWnXjFtA" association="_dNX7kO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dNYioe7aEeWPsvYD2-LIrQ" name="prestador" type="_8W8fIOiZEeWS8sFWnXjFtA" association="_dNX7kO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_d9yE0O7aEeWPsvYD2-LIrQ" memberEnd="_d9yE0-7aEeWPsvYD2-LIrQ _d9yE1O7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d9yE0e7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d9yE0u7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_d9yE0-7aEeWPsvYD2-LIrQ" name="aceptar o rechazar reservación" type="_WdxTgOiZEeWS8sFWnXjFtA" association="_d9yE0O7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_d9yE1O7aEeWPsvYD2-LIrQ" name="prestador" type="_8W8fIOiZEeWS8sFWnXjFtA" association="_d9yE0O7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_goqWsO7aEeWPsvYD2-LIrQ" memberEnd="_goqWs-7aEeWPsvYD2-LIrQ _goq9wO7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_goqWse7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_goqWsu7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_goqWs-7aEeWPsvYD2-LIrQ" name="calificar al cliente o la propiedad." type="_hOsS4OiuEeWknob_pYMvqg" association="_goqWsO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_goq9wO7aEeWPsvYD2-LIrQ" name="prestador" type="_8W8fIOiZEeWS8sFWnXjFtA" association="_goqWsO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hTLTUO7aEeWPsvYD2-LIrQ" memberEnd="_hTL6YO7aEeWPsvYD2-LIrQ _hTL6Ye7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hTLTUe7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hTLTUu7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hTL6YO7aEeWPsvYD2-LIrQ" name="calificar al cliente o la propiedad." type="_hOsS4OiuEeWknob_pYMvqg" association="_hTLTUO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hTL6Ye7aEeWPsvYD2-LIrQ" name="consumidor" type="_D09XQO7ZEeWPsvYD2-LIrQ" association="_hTLTUO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iYZO8O7aEeWPsvYD2-LIrQ" memberEnd="_iYZ2Au7aEeWPsvYD2-LIrQ _iYZ2A-7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iYZ2AO7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iYZ2Ae7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iYZ2Au7aEeWPsvYD2-LIrQ" name="accesar al sistema" type="_Fhn7cOiZEeWS8sFWnXjFtA" association="_iYZO8O7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iYZ2A-7aEeWPsvYD2-LIrQ" name="prestador" type="_8W8fIOiZEeWS8sFWnXjFtA" association="_iYZO8O7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jHH9MO7aEeWPsvYD2-LIrQ" memberEnd="_jHIkQe7aEeWPsvYD2-LIrQ _jHIkQu7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jHH9Me7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jHIkQO7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jHIkQe7aEeWPsvYD2-LIrQ" name="accesar al sistema" type="_Fhn7cOiZEeWS8sFWnXjFtA" association="_jHH9MO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jHIkQu7aEeWPsvYD2-LIrQ" name="consumidor" type="_D09XQO7ZEeWPsvYD2-LIrQ" association="_jHH9MO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kPhvsO7aEeWPsvYD2-LIrQ" memberEnd="_kPiWwu7aEeWPsvYD2-LIrQ _kPiWw-7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kPiWwO7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kPiWwe7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kPiWwu7aEeWPsvYD2-LIrQ" name="cancelar reservación" type="_WQP04OiZEeWS8sFWnXjFtA" association="_kPhvsO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kPiWw-7aEeWPsvYD2-LIrQ" name="consumidor" type="_D09XQO7ZEeWPsvYD2-LIrQ" association="_kPhvsO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mKVPgO7aEeWPsvYD2-LIrQ" memberEnd="_mKV2ku7aEeWPsvYD2-LIrQ _mKV2k-7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mKV2kO7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mKV2ke7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mKV2ku7aEeWPsvYD2-LIrQ" name="cancelar reservación" type="_WQP04OiZEeWS8sFWnXjFtA" association="_mKVPgO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mKV2k-7aEeWPsvYD2-LIrQ" name="prestador" type="_8W8fIOiZEeWS8sFWnXjFtA" association="_mKVPgO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nDDnQO7aEeWPsvYD2-LIrQ" memberEnd="_nDDnQ-7aEeWPsvYD2-LIrQ _nDEOUO7aEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nDDnQe7aEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nDDnQu7aEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nDDnQ-7aEeWPsvYD2-LIrQ" name="reservar la propiedad" type="_V7fs4OiZEeWS8sFWnXjFtA" association="_nDDnQO7aEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nDEOUO7aEeWPsvYD2-LIrQ" name="consumidor" type="_D09XQO7ZEeWPsvYD2-LIrQ" association="_nDDnQO7aEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ofEDgO7gEeWPsvYD2-LIrQ" name="CC de las Reservaciones"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uQq1wO7gEeWPsvYD2-LIrQ" memberEnd="_uQq1w-7gEeWPsvYD2-LIrQ _uQrc0O7gEeWPsvYD2-LIrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uQq1we7gEeWPsvYD2-LIrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uQq1wu7gEeWPsvYD2-LIrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uQq1w-7gEeWPsvYD2-LIrQ" name="cc de las reservaciones" type="_ofEDgO7gEeWPsvYD2-LIrQ" association="_uQq1wO7gEeWPsvYD2-LIrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uQrc0O7gEeWPsvYD2-LIrQ" name="prestador" type="_8W8fIOiZEeWS8sFWnXjFtA" association="_uQq1wO7gEeWPsvYD2-LIrQ"/>
+  </packagedElement>
+</uml:Model>

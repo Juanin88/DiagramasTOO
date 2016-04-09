@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_weu5MPnrEeW9lf47SnXJkg" name="RootElement">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_Z4RNMPnsEeW9lf47SnXJkg" annotatedElement="_MqY2oPnsEeW9lf47SnXJkg">
+    <body>Servidor web&#xD;
+con Apache Tomcat 9&#xD;
+y base de datos PostgreSQL&#xD;
+</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_hGw0MPnsEeW9lf47SnXJkg" annotatedElement="_H6NFIPnsEeW9lf47SnXJkg _KfV7YPnsEeW9lf47SnXJkg _JoaTYPnsEeW9lf47SnXJkg">
+    <body>WWW&#xD;
+Browser para navegar&#xD;
+en la web.&#xD;
+</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_whHe0PnrEeW9lf47SnXJkg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Node" xmi:id="_H6NFIPnsEeW9lf47SnXJkg" name="Visitante"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_JoaTYPnsEeW9lf47SnXJkg" name="Prestador"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_KfV7YPnsEeW9lf47SnXJkg" name="Consumidor"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_MqY2oPnsEeW9lf47SnXJkg" name="Servidor">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PNqrsPnsEeW9lf47SnXJkg" name="visitante" type="_H6NFIPnsEeW9lf47SnXJkg" association="_PMu3kPnsEeW9lf47SnXJkg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TSmgwPnsEeW9lf47SnXJkg" name="consumidor" type="_KfV7YPnsEeW9lf47SnXJkg" association="_TSl5sPnsEeW9lf47SnXJkg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UMqVQ_nsEeW9lf47SnXJkg" name="prestador" type="_JoaTYPnsEeW9lf47SnXJkg" association="_UMqVQPnsEeW9lf47SnXJkg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_PMu3kPnsEeW9lf47SnXJkg" name="HTTP" memberEnd="_PNqrsPnsEeW9lf47SnXJkg _PNqrsfnsEeW9lf47SnXJkg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PMwFsPnsEeW9lf47SnXJkg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PMwFsfnsEeW9lf47SnXJkg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PNqrsfnsEeW9lf47SnXJkg" name="servidor" type="_MqY2oPnsEeW9lf47SnXJkg" association="_PMu3kPnsEeW9lf47SnXJkg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_TSl5sPnsEeW9lf47SnXJkg" name="HTTP" memberEnd="_TSmgwPnsEeW9lf47SnXJkg _TSmgwfnsEeW9lf47SnXJkg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TSl5sfnsEeW9lf47SnXJkg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TSl5svnsEeW9lf47SnXJkg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TSmgwfnsEeW9lf47SnXJkg" name="servidor" type="_MqY2oPnsEeW9lf47SnXJkg" association="_TSl5sPnsEeW9lf47SnXJkg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_UMqVQPnsEeW9lf47SnXJkg" name="HTTP" memberEnd="_UMqVQ_nsEeW9lf47SnXJkg _UMqVRPnsEeW9lf47SnXJkg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UMqVQfnsEeW9lf47SnXJkg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UMqVQvnsEeW9lf47SnXJkg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UMqVRPnsEeW9lf47SnXJkg" name="servidor" type="_MqY2oPnsEeW9lf47SnXJkg" association="_UMqVQPnsEeW9lf47SnXJkg"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VzptwPnXEeW9lf47SnXJkg" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_XKdvsPnXEeW9lf47SnXJkg" name="Vista">
+    <packagedElement xmi:type="uml:Package" xmi:id="_O3kP8PnYEeW9lf47SnXJkg" name="Ingreso de Usuario"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RhuJEPnYEeW9lf47SnXJkg" name="Resultados de Consulta"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Tkdc4PnYEeW9lf47SnXJkg" name="Formulario de Consulta"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WvVdcPnYEeW9lf47SnXJkg" name="Hacer Reservación"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_P7DhsPniEeW9lf47SnXJkg" name="Confirmación de la Reservación"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_SnZMIPniEeW9lf47SnXJkg" name="Administrar Reservaciones"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_W7pPkPniEeW9lf47SnXJkg" name="Administrar Cuenta"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iJ4CkPniEeW9lf47SnXJkg" name="Administrar Inmuebles"/>
+  </packagedElement>
+</uml:Model>

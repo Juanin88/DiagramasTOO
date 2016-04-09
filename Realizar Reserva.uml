@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fSYeMO-0EeWlvNbAhoU_Sw" name="RootElement">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_fVmKQO-0EeWlvNbAhoU_Sw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_iKf60O-0EeWlvNbAhoU_Sw" name="Consumidor"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_plXJ4O-0EeWlvNbAhoU_Sw" name="Reservar la Propiedad">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yzoQQe-0EeWlvNbAhoU_Sw" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_zS2i4e-0EeWlvNbAhoU_Sw" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_z0oaQO-0EeWlvNbAhoU_Sw" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0TCNgO-0EeWlvNbAhoU_Sw" name="ExtensionPoint4"/>
+    <include xmi:type="uml:Include" xmi:id="_fZHmEO-5EeWlvNbAhoU_Sw" addition="_XrJ00O-5EeWlvNbAhoU_Sw"/>
+    <include xmi:type="uml:Include" xmi:id="_QG5m8O--EeWlvNbAhoU_Sw" addition="_FpJ1sO--EeWlvNbAhoU_Sw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_uTd3wO-0EeWlvNbAhoU_Sw" name="Reservar">
+    <extend xmi:type="uml:Extend" xmi:id="_z0nzMO-0EeWlvNbAhoU_Sw" extendedCase="_plXJ4O-0EeWlvNbAhoU_Sw" extensionLocation="_z0oaQO-0EeWlvNbAhoU_Sw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2RNKYO-0EeWlvNbAhoU_Sw" memberEnd="_2RNKY--0EeWlvNbAhoU_Sw _2RNKZO-0EeWlvNbAhoU_Sw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2RNKYe-0EeWlvNbAhoU_Sw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2RNKYu-0EeWlvNbAhoU_Sw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2RNKY--0EeWlvNbAhoU_Sw" name="abcc prestador y consumidor." type="_plXJ4O-0EeWlvNbAhoU_Sw" association="_2RNKYO-0EeWlvNbAhoU_Sw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2RNKZO-0EeWlvNbAhoU_Sw" name="prestador" type="_iKf60O-0EeWlvNbAhoU_Sw" association="_2RNKYO-0EeWlvNbAhoU_Sw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_XrJ00O-5EeWlvNbAhoU_Sw" name="Registro de Disponibilidad"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_FpJ1sO--EeWlvNbAhoU_Sw" name="Busqueda de Disponibilidad"/>
+</uml:Model>
