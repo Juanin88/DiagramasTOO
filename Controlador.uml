@@ -2,9 +2,17 @@
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VzptwPnXEeW9lf47SnXJkg" name="RootElement">
   <packagedElement xmi:type="uml:Package" xmi:id="_XKdvsPnXEeW9lf47SnXJkg" name="Controlador">
     <packagedElement xmi:type="uml:Package" xmi:id="_O3kP8PnYEeW9lf47SnXJkg" name="Autenticación de Usuarios"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_RhuJEPnYEeW9lf47SnXJkg" name="Reservar"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_Tkdc4PnYEeW9lf47SnXJkg" name="Inmuebles"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_WvVdcPnYEeW9lf47SnXJkg" name="Index"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_BntF8PnkEeW9lf47SnXJkg" name="Administrador de Reservas"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RhuJEPnYEeW9lf47SnXJkg" name="Reservar">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_wFYggP6KEeWwB60PmU8bew" client="_RhuJEPnYEeW9lf47SnXJkg" supplier="_WvVdcPnYEeW9lf47SnXJkg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Tkdc4PnYEeW9lf47SnXJkg" name="Inmuebles">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_vpOI8P6KEeWwB60PmU8bew" client="_Tkdc4PnYEeW9lf47SnXJkg" supplier="_WvVdcPnYEeW9lf47SnXJkg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WvVdcPnYEeW9lf47SnXJkg" name="Index">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_x1EVcP6KEeWwB60PmU8bew" client="_WvVdcPnYEeW9lf47SnXJkg" supplier="_O3kP8PnYEeW9lf47SnXJkg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_BntF8PnkEeW9lf47SnXJkg" name="Administrador de Reservas">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_wiIG4P6KEeWwB60PmU8bew" client="_BntF8PnkEeW9lf47SnXJkg" supplier="_WvVdcPnYEeW9lf47SnXJkg"/>
+    </packagedElement>
   </packagedElement>
 </uml:Model>

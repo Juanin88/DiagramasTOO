@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_8gVzAAQ1EeayUL3bTJBPOA" name="RootElement">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_8sO58AQ1EeayUL3bTJBPOA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_OH5fkAQ2EeayUL3bTJBPOA" name="Vista">
+    <packagedElement xmi:type="uml:Class" xmi:id="_IROAEAQ2EeayUL3bTJBPOA" name="FormularioDeConsultaIH"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Sw1ZkAQ2EeayUL3bTJBPOA" name="ResultadosDeConsultaIH"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ue-WYAQ2EeayUL3bTJBPOA" name="ConfirmaciónDeLaReservaciónIH"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Wgh-cAQ2EeayUL3bTJBPOA" name="IngresoDeUsuarioIH"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Yz2E4AQ2EeayUL3bTJBPOA" name="HacerReservaciónIH"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_apSjkAQ2EeayUL3bTJBPOA" name="AdministrarReservacionesIH"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cngjwAQ2EeayUL3bTJBPOA" name="AdministrarCuentaIH"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_q3hswAQ2EeayUL3bTJBPOA" name="AdministrarInmuebleIH"/>
+  </packagedElement>
+</uml:Model>
